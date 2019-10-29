@@ -9,7 +9,7 @@ typedef unsigned long long ull;
 bool isPrime(int number);
 
 //modular exponentiation function for large numbers.
-// TODO: make it cross-platform
+// TODO: make it cross-platform.
 ull modpow(__uint128_t base, ull exp, ull modulus) {
   base %= modulus;
   ull result = 1;
